@@ -17,7 +17,6 @@ export default {
     Task
   },
   emits:['delete-task','toggle-reminder'],
-
 }
 </script>
 
