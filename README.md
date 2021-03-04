@@ -1,7 +1,7 @@
-# task-tracker
+# Task-Tracker
 
 
-##BackEnd Install 
+## BackEnd Install 
 ```angular2html
 npm run backend 
 ```
