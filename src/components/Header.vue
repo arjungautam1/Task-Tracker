@@ -1,27 +1,27 @@
 <template>
   <header>
     <h1>{{ title }}</h1>
-    <Button text="Add Task" color="green"/>
-<!--    <Button text="Add Task" color="red"/>-->
+    <Button @toggle-add-task="$emit('toggle-add-task')" text="Add Task" color="green"/>
+    <!--    <Button text="Add Task" color="red"/>-->
   </header>
 </template>
 <script>
 import Button from './Button'
 
 export default {
-  name:'Header',
-  props:{
-    title: String ,
-    },
-  components:{
+  name: 'Header',
+  props: {
+    title: String,
+  },
+  components: {
     Button
   }
-  }
+}
 
 </script>
 
 <style scoped>
-header{
+header {
   display: flex;
   justify-content: space-between;
   align-items: center;
