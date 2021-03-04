@@ -1,5 +1,12 @@
 # task-tracker
 
+Live on : 
+
+
+##BackEnd Install 
+```angular2html
+npm run backend 
+```
 ## Project setup
 ```
 npm install

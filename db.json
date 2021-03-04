@@ -1,22 +1,22 @@
 {
   "tasks": [
     {
-      "id": "1",
-      "text": "Play Some new guitar chords",
-      "day": "March 4 at 6:30",
-      "reminder": true
-    },
-    {
-      "id": 25411,
-      "text": "New Task",
-      "day": "2020 March 4",
-      "reminder": true
-    },
-    {
-      "id": 63090,
+      "id": 12602,
       "text": "Complete JS Course",
-      "day": "2021 March 4 ",
+      "day": "2020 March 4",
+      "reminder": false
+    },
+    {
+      "id": 2015,
+      "text": "Learn Vue.js",
+      "day": "March 5",
       "reminder": true
+    },
+    {
+      "id": 24122,
+      "text": "New Task",
+      "day": "2020 June 12",
+      "reminder": false
     }
   ]
 }
